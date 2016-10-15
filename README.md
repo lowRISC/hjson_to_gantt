@@ -1,8 +1,12 @@
-# hjson_to_gantt.py
+# hjson_to_gantt
 ## Introduction
 `hjson_to_gantt` is a simple script with a very simple aim: produce a Gantt 
 chart based on [(H)JSON input](http://hjson.org/). It is built upon the excellent 
 [python-gantt](http://xael.org/pages/python-gantt-en.html) library.
+
+See the accompanying [blog 
+post](http://www.lowrisc.org/blog/2016/10/generating-a-gantt-chart-from-hjson-input/)
+for a little more motivation.
 
 ## Dependencies
 `pip install gantt fuzzyfinder hjson`
