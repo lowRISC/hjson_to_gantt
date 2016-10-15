@@ -62,6 +62,10 @@ To try out the example:
 
 This will output `example_daily.svg` and `example_weekly.svg`.
 
+A PNG rendering of [`example_daily.svg`](example_daily.svg) is shown below (Github doesn't allow embedded SVG):
+
+![Example Gantt chart](example_daily.png?raw=true)
+
 ## License
 This script is released under the terms of the MIT license (see LICENSE).
 However, note that the python-gantt library this script uses is GPLv3+ meaning
