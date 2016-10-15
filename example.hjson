@@ -1,0 +1,41 @@
+{
+  projects: [
+    {
+      name: Project Alpha
+      color: green
+    }
+  ]
+
+  tasks: [
+    {
+      name: Design widget
+      begin: 2016-10-14
+      duration: 7,
+      people: Farquaad
+      project: alpha
+    }
+    {
+      name: Set up widget production line
+      begin: 2016-10-19
+      duration: 6
+      people: Zack
+      project: alpha
+    }
+    {
+      name: Manufacture widgets
+      duration: 7
+      people: Carrie
+      deps: ["design widget", "widget prod line"]
+      project: alpha
+    }
+  ]
+
+  milestones: [
+    {
+      name: Widgets start shipping
+      start: 2016-10-30
+      deps: ["mftr widgets"]
+      project: alpha
+    }
+  ]
+}
