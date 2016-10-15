@@ -1,4 +1,8 @@
 #!/usr/bin/env python3
+# Part of hjson_to_gantt http://github.com/lowRISC/hjson_to_gantt
+#
+# See LICENSE file for copyright and license details
+
 import datetime
 import argparse
 from fuzzyfinder import fuzzyfinder
